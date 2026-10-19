@@ -18,6 +18,8 @@ int main(void) {
     assert(ToInteger("100") == 100);
 
     /* ── Operacion libre — agregar tests aca ────────────────────────────── */
-
+    assert(DigitToChar(0) == '0');
+    assert(DigitToChar(7) == '7');
+    assert(DigitToChar(9) == '9');
     return 0;
 }

@@ -19,4 +19,6 @@ int ToInteger(const char *s) {
 
 /* ── Operacion libre ─────────────────────────────────────────────────────── */
 
-/* TODO */
+char DigitToChar(int d) {
+    return (char)('0' + d);
+}

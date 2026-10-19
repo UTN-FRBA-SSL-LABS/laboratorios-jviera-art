@@ -16,7 +16,9 @@
  * Post: devuelve el valor entero correspondiente a la cadena */
 int ToInteger(const char *s);
 
-/* TODO: agregar una operacion a definir libremente.
- * Documentar Pre, Post y firma antes del prototipo. */
+ /* DigitToChar: Integer -> Char
+ * Pre:  0 <= d <= 9
+ * Post: devuelve el caracter digito correspondiente a d ('0'..'9') */
+char DigitToChar(int d);
 
 #endif
